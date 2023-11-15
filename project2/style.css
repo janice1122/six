@@ -1,0 +1,54 @@
+h1{
+    color: blueviolet;
+    font-size: 20px;
+}
+h1:hover{
+    color: orange;
+}
+p{
+    
+    color: blue;
+}
+.style{
+    color: purple;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 2.5;
+    text-align: right;/*靠左*/
+    text-indent: 24px;/*空格縮排*/
+    text-decoration: line-through;/*底線*/
+    letter-spacing: 10px;/*字跟字的間距*/
+
+}
+.red{
+    color: red;
+    line-height: 20px;
+    
+}
+.style2{
+    color: aquamarine;
+    font-size: 50;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: red;
+    font-size: 20;
+}
+a:active{
+    color: blue;
+}
+
+h2{
+    border: 10px dotted blue;
+}
+h3{
+    border-left: 10px solid blue;
+    border-right: 10px solid black;
+    border-top: 10px solid pink;
+}
+img{
+   
+    border: 5px dashed plum;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    標題用th 
+    <table class="price">
+        <tr>
+            <th>標題一</th>
+            <th>標題二</th>
+            <th>標題三</th>
+        </tr>
+        <tr>
+            <td>內容一</td>
+            <td>內容二</td>
+            <td>內容三</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>  
+    </table>
+
+    <form action="index4.html" >
+        <label for="mail">電子郵件</label>
+        <input id="mail" type="text" placeholder="輸入電子郵件" name="mail">
+        <label for="person">姓名</label>
+        <input type="text" id="person" placeholder="請輸入姓名" name="person">
+        <h2>性別(單選)</h2>
+        <input type="radio" name="sex" value="male">男生
+        <input type="radio" name="sex" value="female">女生
+        <h2>興趣(複選)</h2>
+        <input type="checkbox" value="movie" name="hobby">看電影
+        <input type="checkbox" value="music" name="hobby">聽音樂
+        <input type="checkbox" value="comic" name="hobby">看漫畫
+        <br>
+        <label for="birth">生日(下拉選單)</label>
+        
+        <select id="birth" name="birth">
+            <option value="1900">1900</option>
+            <option value="1901">1901</option>
+            <option value="1902">1902</option>
+        </select>
+        <h2>內容</h2>
+        <textarea name="content" id="" cols="30" rows="10"></textarea>
+        <input type="button" class="btn" value="點選">
+        <input type="submit" value="下一步">
+    </form>
+</body>
+</html>
